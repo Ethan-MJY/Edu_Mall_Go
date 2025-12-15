@@ -5,9 +5,7 @@
 
 # 编译产生的二进制文件 (假设你的go项目编译后叫 main 或 mall)
 main
-main.exe
-mall
-mall.exe
+*.exe
 
 # Docker 挂载的数据目录 (绝对不能上传这个！)
 docker_data/
