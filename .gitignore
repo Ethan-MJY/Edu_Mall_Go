@@ -1,0 +1,22 @@
+# IDE 配置文件
+.idea/
+*.iml
+.vscode/
+
+# 编译产生的二进制文件 (假设你的go项目编译后叫 main 或 mall)
+main
+main.exe
+mall
+mall.exe
+
+# Docker 挂载的数据目录 (绝对不能上传这个！)
+docker_data/
+
+# 敏感配置文件 (建议忽略本地配置，只传模板)
+backend/mall/mall_local.yml
+
+# Go 依赖缓存 (如果有 vendor 目录)
+vendor/
+
+# claude文件
+CLAUDE.md
